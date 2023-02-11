@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@700&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: hsl(30, 38%, 92%);
+}
+
+img {
+  width: 300px;
+  height: 400px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10rem;
+}
+
+.container .left {
+  flex: 1;
+  width: 300px;
+}
+
+.container .right {
+  flex: 1;
+  width: 300px;
+  height: 400px;
+  padding: 30px;
+  padding-right: 45px;
+  background-color: #fff;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.desc {
+  font-size: 14px;
+  line-height: 20px;
+  padding-bottom: 8px;
+  color: grey;
+}
+
+.price {
+  padding-top: 10px;
+  padding-bottom: 15px;
+  color: grey;
+  font-size: 0.8rem;
+}
+
+span {
+  font-size: 30px;
+  font-family: "Fraunces", sans-serif;
+  color: rgba(64, 108, 64, 0.878);
+}
+
+h5 {
+  letter-spacing: 2.8px;
+  color: grey;
+  padding-bottom: 15px;
+  font-size: 10px;
+}
+
+h1 {
+  padding-bottom: 15px;
+  font-family: "Fraunces", serif;
+  font-size: 35px;
+  line-height: 35px;
+}
+
+button {
+  width: 240px;
+  height: 40px;
+  margin-top: 5px;
+  border-radius: 8px;
+  border: none;
+  background: rgba(64, 108, 64, 0.878);
+  color: white;
+  font-family: "Montserrat", sans-serif;
+}
+
+button:hover {
+  cursor: pointer;
+  background: rgb(20, 87, 20);
+  transition: 0.4s ease all;
+}
+/* .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+} */
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
